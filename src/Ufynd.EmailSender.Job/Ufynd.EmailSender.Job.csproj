@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>dotnet-Ufynd.EmailSender.Job-8DEA8E26-8D30-45B6-80DB-E313EC0B4297</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MailKit" Version="3.6.0" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+        <PackageReference Include="Akka" Version="1.5.0" />
+        <PackageReference Include="Akka.DI.AutoFac" Version="1.4.27" />
+        <PackageReference Include="Akka.DI.Extensions.DependencyInjection" Version="1.4.22" />
+        <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+        <PackageReference Include="NETCore.MailKit" Version="2.1.0" />
+        <PackageReference Include="Polly" Version="7.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Ufynd.FileUpload.Sdk\Ufynd.FileUpload.Sdk.csproj" />
+      <ProjectReference Include="..\Ufynd.Redis.Sdk\Ufynd.Redis.Sdk.csproj" />
+    </ItemGroup>
+</Project>
