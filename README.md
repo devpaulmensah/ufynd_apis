@@ -25,3 +25,6 @@ app password from your gmail account. Update the appsettings with the credential
 * Run the <b>Ufynd.Reporting.Api</b> project which generates an excel report based on the list of hotels provided. This project also can
 send automated emails with the generated files as attachment but in order to activate this, update the `UseAutomatedEmailSender` in the projects
 appsettings to `true`, run the <b>Ufynd.EmailSender.Job</b> at the same and make the request together with the email address.
+
+## Architecture
+The architecture for this project can be found [here](https://drive.google.com/file/d/1GqKIqsU-jY5TmNGkLje2i1zgQ6x-Ri9J/view?usp=sharing)
