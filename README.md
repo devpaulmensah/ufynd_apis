@@ -1,5 +1,7 @@
 # Ufynd API
 
+This is an API to schedule emails with attachments and developed using .NET 6, Redis, AWS S3 and Akka.NET.
+
 ## Prerequirements
 * Jetbrains Rider or Visual Studio 2019 (or higher)
 * .NET Core SDK (version 6.0 or higher)
